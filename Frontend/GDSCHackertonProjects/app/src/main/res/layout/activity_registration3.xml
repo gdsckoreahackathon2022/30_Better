@@ -100,7 +100,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="아침"
+        android:text="@string/Morning"
         android:id="@+id/breakfast"
         android:checked="true"
         android:padding="10dp"
@@ -115,12 +115,12 @@
         app:layout_constraintStart_toEndOf="@id/breakfast"
         app:layout_constraintTop_toBottomOf="@id/timeForEating"
         android:inputType="time"
-        android:hint="7:00"/>
+        android:hint="@string/_7_00" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="점심"
+        android:text="@string/lunch"
        android:id="@+id/lunch"
         android:checked="true"
         android:padding="10dp"
@@ -135,12 +135,12 @@
         app:layout_constraintStart_toEndOf="@id/lunch"
         app:layout_constraintTop_toBottomOf="@id/breakfast"
         android:inputType="time"
-        android:hint="12:00" />
+        android:hint="@string/_12_00" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="저녁"
+        android:text="@string/dinner"
         android:id="@+id/dinner"
         android:checked="true"
         android:padding="10dp"
@@ -155,7 +155,7 @@
         app:layout_constraintStart_toEndOf="@id/dinner"
         app:layout_constraintTop_toBottomOf="@id/lunch"
         android:inputType="time"
-        android:hint="19:00" />
+        android:hint="@string/_19_00" />
 
     <Button
         android:id="@+id/previousStep3"
