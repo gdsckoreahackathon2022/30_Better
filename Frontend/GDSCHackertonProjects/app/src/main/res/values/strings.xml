@@ -47,4 +47,10 @@
     <string name="IntroductionBeet">이름: 비트\n소개: \n하트모양 깜찍한 비트\n누가 뭐라고 해도 슈퍼푸드다\n색도 좋고 아주 맛있다\n건강해지는 소리가 들린다</string>
     <string name="bro">Bro</string>
     <string name="IntroductionBro">이름: 브로\n소개: \n나무같이 생겼지만 사실은 꽃\n파마머리를 한 브로콜리다.\n살짝 데쳐서 초고추장과 함께\n먹으면 정말 맛있다</string>
+    <string name="Morning">아침</string>
+    <string name="_7_00">7:00</string>
+    <string name="lunch">점심</string>
+    <string name="_12_00">12:00</string>
+    <string name="dinner">저녁</string>
+    <string name="_19_00">19:00</string>
 </resources>

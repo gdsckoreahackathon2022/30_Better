@@ -12,7 +12,7 @@ class Award : AppCompatActivity() {
 
         //main페이지로 이동하기 위한 인덴트 생성
         val mainIntent = Intent(this, MainPage::class.java)
-        val mainButton: Button = findViewById(R.id.toMain)
+        val mainButton: Button = findViewById(R.id.backButton)
         mainButton.setOnClickListener {
             startActivity(mainIntent)
         }
