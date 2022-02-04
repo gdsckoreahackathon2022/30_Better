@@ -5,6 +5,7 @@
     android:id="@+id/writeNewRecord"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingTop="16dp"
     tools:context=".MainPage">
 
     <ScrollView
@@ -31,6 +32,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/MyGoals"
+                    android:textSize="30sp"
                     app:layout_constraintStart_toStartOf="@id/goalLayout"
                     app:layout_constraintTop_toTopOf="@id/goalLayout" />
 
@@ -38,31 +40,26 @@
                     android:id="@+id/targetVegan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="목표 단계 : "
-                    app:layout_constraintTop_toBottomOf="@id/goals" />
+                    android:text="@string/TargetVegan"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toBottomOf="@id/goals"
+                    app:layout_constraintStart_toStartOf="@id/goalLayout"/>
 
                 <TextView
                     android:id="@+id/dayForEarth"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="계획 요일 : "
-                    app:layout_constraintTop_toBottomOf="@id/targetVegan" />
-
-                <ImageView
-                    android:id="@+id/awardimage"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/dayForEarth"
-                    app:srcCompat="@drawable/cabbage"
-                    tools:srcCompat="@drawable/cabbage" />
+                    android:text="@string/dayForEarth"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toBottomOf="@id/targetVegan"
+                    app:layout_constraintStart_toStartOf="@id/goalLayout"/>
 
                 <Button
                     android:id="@+id/awardButton"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="수집한 뱃지"
-                    app:layout_constraintStart_toEndOf="@id/awardimage"
+                    android:text="@string/CollectedAwardButton"
+                    app:layout_constraintStart_toEndOf="@id/dayForEarth"
                     app:layout_constraintTop_toBottomOf="@id/dayForEarth" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -75,97 +72,42 @@
                 <CalendarView
                     android:id="@+id/calendarView2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/writeButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="+ 글쓰기" />
+                android:text="@string/NewPost"
+                android:layout_margin="16dp"
+                />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="16dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="여기에 업로드한 글이 적힌다"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
                     app:srcCompat="@drawable/sweet"
-                    tools:srcCompat="@drawable/sweet" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="16dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/beet"
-                    tools:srcCompat="@drawable/beet" />
+                    tools:srcCompat="@drawable/sweet"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/picture1"
+                    android:contentDescription="@string/PictureThatIAte" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="여기에 업로드한 글이 적힌다"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:text="@string/PostedPostEX"
+                    app:layout_constraintTop_toBottomOf="@id/picture1"
+                    app:layout_constraintStart_toStartOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="16dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/cabbage" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="여기에 업로드한 글이 적힌다"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="16dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/bro" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="여기에 업로드한 글이 적힌다"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
 
         </LinearLayout>
     </ScrollView>
