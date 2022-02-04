@@ -86,11 +86,10 @@ Front구현 목록
 
 
 
-  
+| ![2](https://user-images.githubusercontent.com/51512016/152601609-e0b884a1-35f7-4d90-a93f-6f2564e1b6dd.png) | ![3](https://user-images.githubusercontent.com/51512016/152601610-c693daa5-c337-454c-a7c0-bd96b6bce253.png) |
+|--|--|
+|  |  |
 
-![2](https://user-images.githubusercontent.com/51512016/152601609-e0b884a1-35f7-4d90-a93f-6f2564e1b6dd.png)
-
-![3](https://user-images.githubusercontent.com/51512016/152601610-c693daa5-c337-454c-a7c0-bd96b6bce253.png)
 
 
 ### 1.2 채식 데이 설정 및 식사 시간 설정  
@@ -117,8 +116,7 @@ Front구현 목록
 
 
 
+| ![7](https://user-images.githubusercontent.com/51512016/152601620-f25e001c-eb80-49aa-8f06-9b4278008a77.png) |  ![8](https://user-images.githubusercontent.com/51512016/152601623-24045059-cb79-47ab-98d9-7594424110a1.png)|
+|--|--|
+|  |  |
 
-
-![7](https://user-images.githubusercontent.com/51512016/152601620-f25e001c-eb80-49aa-8f06-9b4278008a77.png)
-
-![8](https://user-images.githubusercontent.com/51512016/152601623-24045059-cb79-47ab-98d9-7594424110a1.png)
