@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GDSCHackertonProjects</string>
+    <string name="RegistrationTitle">회원가입</string>
+    <string name="YourVeganStep">현재 비건 단계</string>
+    <string name="Meatarian">육식파</string>
+    <string name="Flexitarian">플렉시테리언</string>
+    <string name="PolloVegetarian">폴로 베지테리언</string>
+    <string name="PescoVegetarian">페스코 베지테리언</string>
+    <string name="LactoOveVegetarian">락토 오보 베지테리언</string>
+    <string name="OvoVegetarian">오보 베지테리언</string>
+    <string name="LactoVegetarian">락토 베지테리언</string>
+    <string name="Vegan">비건</string>
+    <string name="Next">다음</string>
+    <string name="TargetVeganStep">목표 수준</string>
+    <string name="ReduceMeats">먹는 고기 양을 줄인다</string>
+    <string name="Previous">이전</string>
+    <string name="TargetDay">목표 요일</string>
+    <string name="Monday">월</string>
+    <string name="Tuesday">화</string>
+    <string name="Wednesday">수</string>
+    <string name="Thursday">목</string>
+    <string name="Friday">금</string>
+    <string name="Saturday">토</string>
+    <string name="Sunday">일</string>
+    <string name="TimeForEating">식사 시간</string>
+    <string name="title_activity_bottom_navigator">BottomNavigator</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="MyGoals">나의 목표</string>
+</resources>
