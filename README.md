@@ -1,8 +1,8 @@
   
 
-# 30_Better😆
+# Team 30_Better😆
 
-  
+  ## Title : "그린포미"(가제)"
 
 **Better**'s project
 
@@ -10,9 +10,9 @@
 
   
 
-🛠 *Tech Stack* 🛠 : Kotlin, Spring </br>
+<center>🛠 *Tech Stack* 🛠 : Kotlin, Spring </br>
 
-🛠 *Tools & Platforms* 🛠 : heroku, Intellij, AndroidStudio, jawsDB
+🛠 *Tools & Platforms* 🛠 : heroku, Intellij, AndroidStudio, jawsDB, RESTful API </center>
 
   
 
@@ -20,7 +20,7 @@
 ![1](https://user-images.githubusercontent.com/51512016/152601603-8c438614-f21e-46cf-911c-9131d7d19ce1.png)
   
 
-> 주제 : 환경을 위해 일주일에 한 걸음👟
+> 주제 : 환경을 위해 일주일에 한 걸음👟 </br>
   부제 : 일주일에 하루만 비건을 실천해보자🌍
 
 
@@ -30,7 +30,7 @@
 
 ---
 
-구현 목록
+Front구현 목록
 
 1. 회원가입 페이지 </br>
 
