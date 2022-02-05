@@ -44,6 +44,14 @@
                     android:textSize="20sp"
                     app:layout_constraintStart_toStartOf="@id/goalLayout"
                     app:layout_constraintTop_toBottomOf="@id/goals" />
+                <TextView
+                    android:id="@+id/goalVegan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Flexitarian"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toEndOf="@id/targetVegan"
+                    app:layout_constraintTop_toBottomOf="@id/goals" />
 
                 <TextView
                     android:id="@+id/dayForEarth"
@@ -53,6 +61,15 @@
                     android:textSize="20sp"
                     app:layout_constraintStart_toStartOf="@id/goalLayout"
                     app:layout_constraintTop_toBottomOf="@id/targetVegan" />
+
+                <TextView
+                    android:id="@+id/goalDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/defaultSunday"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toEndOf="@id/dayForEarth"
+                    app:layout_constraintTop_toBottomOf="@id/goalVegan" />
 
                 <Button
                     android:id="@+id/awardButton"

@@ -55,4 +55,5 @@
     <string name="_19_00">19:00</string>
     <string name="touch_for_start">Touch for Start</string>
     <string name="touch">Touch</string>
+    <string name="defaultSunday">일요일</string>
 </resources>
