@@ -1,18 +1,22 @@
   
 
-# Team 30_Better😆
+# Team 30_Better😃
 
-  ## Title : "채식 식습관 기르기"(가제)
+  ## 🌳Title : For Me🌳
 
 **Better**'s project
+Member </br>
+- Front : 양현서, 이보경 </br>
+- Back : 김은지, 윤지애 </br>
+
+---
+
+🛠 Tech Stack 🛠 :</br>  <img src="https://img.shields.io/badge/-kotlin-lightgrey"> <img src="https://img.shields.io/badge/-spring%20boot-green"> </br>
+
+🛠 *Tools & Platforms* 🛠 :</br> <img src="https://img.shields.io/badge/-heroku-%2340AEF0"> <img src="https://img.shields.io/badge/-IntelliJ-%230B2C4A">
+<img src="https://img.shields.io/badge/-Android%20Studio-%2300B388"> <img src="https://img.shields.io/badge/-JawsDB-%234053D6">
 
 
-<center>🛠 Tech Stack 🛠 : Kotlin, Spring </br>
-
-🛠 *Tools & Platforms* 🛠 : heroku, Intellij, AndroidStudio, jawsDB, RESTful API </center>
-
-Front : 양현서, 이보경 <
-Back : 김은지, 윤지애
 
 ---
 <img src="https://user-images.githubusercontent.com/51512016/152601603-8c438614-f21e-46cf-911c-9131d7d19ce1.png" width="15%" />
@@ -104,3 +108,12 @@ Back : 김은지, 윤지애
 🚀 게이미피케이션, 리워드 요소를 넣어 타서비스보다 가볍게 접근 가능</br>
 🚀 목표는 의식적으로 일주일에 최소 한 끼 채식하는 것을 목표로 작은 성공을 누적시키며 채식에 대한 진입장벽을 낮춤</br>
 🚀 비건 식단만 업로드 해야하는 타 서비스와 달리 채식 일지는 본인만 열람할 수 있으며 식단 작성시 육류 소비 빈도 자각과 함께 변화를 관찰할 수 있음(채식 일지 선택적 공유 기능은 추후 추가할 예정)
+
+---
+### Project Settings
+
+**spring boot** 
+- springBootVersion = '2.1.9.RELEASE'
+- java ver8
+- mustache
+- JPA
