@@ -14,7 +14,7 @@ Member </br>
 🛠 Tech Stack 🛠 :</br>  <img src="https://img.shields.io/badge/-kotlin-lightgrey"> <img src="https://img.shields.io/badge/-spring%20boot-green"> </br>
 
 🛠 *Tools & Platforms* 🛠 :</br> <img src="https://img.shields.io/badge/-heroku-%2340AEF0"> <img src="https://img.shields.io/badge/-IntelliJ-%230B2C4A">
-<img src="https://img.shields.io/badge/-Android%20Studio-%2300B388"> <img src="https://img.shields.io/badge/-JawsDB-%234053D6">
+<img src="https://img.shields.io/badge/-Android%20Studio-%2300B388"> <img src="https://img.shields.io/badge/-JawsDB-%234053D6"> <img src="https://img.shields.io/badge/-notion-%23FF9900">
 
 
 
@@ -110,10 +110,19 @@ Member </br>
 🚀 비건 식단만 업로드 해야하는 타 서비스와 달리 채식 일지는 본인만 열람할 수 있으며 식단 작성시 육류 소비 빈도 자각과 함께 변화를 관찰할 수 있음(채식 일지 선택적 공유 기능은 추후 추가할 예정)
 
 ---
+### Backend 구현 목록
+- RESTful API 작성
+- heroku Deploy
+- CRUD 기능
+- 원격 DB(JawsDB) 연결
+- JPA Auditing 
+- MVC 기반 TestCode 
+
+---
 ### Project Settings
 
 **spring boot** 
 - springBootVersion = '2.1.9.RELEASE'
-- java ver8
+- java8
 - mustache
 - JPA
