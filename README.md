@@ -84,7 +84,7 @@ Member </br>
 
 ### 2.1 채식 달력 및 메인 페이지
 <div display="flex">
-  <img src="https://user-images.githubusercontent.com/51512016/152601615-934f2d66-4968-46dd-bfcf-7742cd793fe4.png" width="25%" />
+  <img src="https://user-images.githubusercontent.com/51512016/152622616-aa25fb9b-1b5d-4979-b607-881f1e1b575b.jpg" width="25%" />
   <img src="https://user-images.githubusercontent.com/51512016/152601617-d5f95aca-0377-4f2c-8628-b9790c524fa2.png" width="25%" />
 </div>
 🍀 작성한 채식 일지를 최신순으로 보여줌
@@ -111,7 +111,7 @@ Member </br>
 
 ---
 ### Backend 구현 목록
-- RESTful API 작성
+- RESTful API 
 - heroku Deploy
 - CRUD 기능
 - 원격 DB(JawsDB) 연결
