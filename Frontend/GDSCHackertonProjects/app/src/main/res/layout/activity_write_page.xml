@@ -4,105 +4,117 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WritePage"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".WritePage">
 
     <TextView
+        android:id="@+id/todays"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/todays"
         android:text="오늘의 식단"
         android:textSize="30sp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-<!--
-    <ImageView
-        android:id="@+id/addphoto_image"
-        android:layout_margin="8dp"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/todays" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="사진 선택하기"
-        android:textSize="20sp"
-        android:id="@+id/addphotoButton"
-        app:layout_constraintTop_toBottomOf="@id/addphoto_image"/>
--->
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--
+        <ImageView
+            android:id="@+id/addphoto_image"
+            android:layout_margin="8dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/todays" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사진 선택하기"
+            android:textSize="20sp"
+            android:id="@+id/addphotoButton"
+            app:layout_constraintTop_toBottomOf="@id/addphoto_image"/>
+    -->
 
     <EditText
+        android:id="@+id/editpost"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/todays"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="20sp"
         android:hint="먹은 음식 설명, 맛 평가 등을 자유롭게
         기록하세요!"
-        android:id="@+id/editpost"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/checklist"
-        android:text="Self Check"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editpost"
+        app:layout_constraintTop_toBottomOf="@id/todays" />
+
+    <TextView
+        android:id="@+id/checklist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Self Check"
         android:textSize="30sp"
-        android:paddingTop="20dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editpost" />
+
     <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/checklist"
         android:id="@+id/eggs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="알(계란 등)"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checklist" />
+
     <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/eggs"
         android:id="@+id/dairy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="유제품"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/eggs" />
+
     <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/dairy"
         android:id="@+id/fish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="어류"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dairy" />
+
     <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/fish"
         android:id="@+id/chicken"
-        android:text="가금류(닭 등)"
-        android:textSize="20sp"/>
-    <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/chicken"
+        android:text="가금류(닭 등)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fish" />
+
+    <CheckBox
         android:id="@+id/meats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="육류"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chicken" />
 
     <Button
+        android:id="@+id/upload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/upload"
-        app:layout_constraintEnd_toEndOf="parent"
         android:text="완료"
         android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/meats" />
+
     <Button
+        android:id="@+id/cancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/cancel"
-        android:textSize="20sp"
         android:text="취소"
-        app:layout_constraintTop_toBottomOf="@id/meats"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/meats" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
