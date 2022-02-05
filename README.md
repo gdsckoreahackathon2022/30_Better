@@ -6,8 +6,8 @@
 
 **Better**'s project
 Member </br>
-- Front : 양현서, 이보경 </br>
-- Back : 김은지, 윤지애 </br>
+- Front : [양현서](https://github.com/YangHyeonS), [이보경](https://github.com/BoKyung124) </br>
+- Back : [김은지](https://github.com/Eundongdong), [윤지애](https://github.com/jiaeYoon) </br>
 
 ---
 
