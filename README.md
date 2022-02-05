@@ -7,10 +7,12 @@
 **Better**'s project
 
 
-<center>🛠 *Tech Stack* 🛠 : Kotlin, Spring </br>
+<center>🛠 Tech Stack 🛠 : Kotlin, Spring </br>
 
 🛠 *Tools & Platforms* 🛠 : heroku, Intellij, AndroidStudio, jawsDB, RESTful API </center>
 
+Front : 양현서, 이보경 <
+Back : 김은지, 윤지애
 
 ---
 <img src="https://user-images.githubusercontent.com/51512016/152601603-8c438614-f21e-46cf-911c-9131d7d19ce1.png" width="15%" />
