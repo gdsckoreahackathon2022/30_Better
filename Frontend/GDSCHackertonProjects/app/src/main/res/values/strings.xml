@@ -53,4 +53,6 @@
     <string name="_12_00">12:00</string>
     <string name="dinner">저녁</string>
     <string name="_19_00">19:00</string>
+    <string name="touch_for_start">Touch for Start</string>
+    <string name="touch">Touch</string>
 </resources>

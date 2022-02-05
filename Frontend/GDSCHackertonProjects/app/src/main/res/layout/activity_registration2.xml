@@ -31,6 +31,7 @@
         android:id="@+id/targetVeganStepButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:checkedButton="@id/flexitarian"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/targetVeganStep">

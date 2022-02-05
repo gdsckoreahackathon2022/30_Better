@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/Better/Frontend/GDSCHackertonProjects/app/src/main/res/layout/activity_award.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/Better/Frontend/GDSCHackertonProjects/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/Better/Frontend/GDSCHackertonProjects/app/src/main/res/layout/activity_main_page.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/Better/Frontend/GDSCHackertonProjects/app/src/main/res/layout/activity_registration.xml" value="0.11041666666666666" />
+        <entry key="..\:/Android/Better/Frontend/GDSCHackertonProjects/app/src/main/res/layout/activity_registration2.xml" value="0.264" />
+        <entry key="..\:/Android/Better/Frontend/GDSCHackertonProjects/app/src/main/res/layout/activity_registration3.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/Better/Frontend/GDSCHackertonProjects/app/src/main/res/layout/activity_write_page.xml" value="0.24947916666666667" />
         <entry key="..\:/Android/GDSCHackertonProjects/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.119" />
         <entry key="..\:/Android/GDSCHackertonProjects/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.119" />
         <entry key="..\:/Android/GDSCHackertonProjects/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.119" />

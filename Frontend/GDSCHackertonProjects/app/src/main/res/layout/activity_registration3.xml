@@ -69,14 +69,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Friday"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
 
         <RadioButton
             android:id="@+id/saturday"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Saturday"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
 
         <RadioButton
             android:id="@+id/sunday"
@@ -98,64 +98,64 @@
         app:layout_constraintTop_toBottomOf="@id/targetDayButtons" />
 
     <CheckBox
+        android:id="@+id/breakfast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Morning"
-        android:id="@+id/breakfast"
         android:checked="true"
         android:padding="10dp"
-        app:layout_constraintTop_toBottomOf="@id/timeForEating"
-        app:layout_constraintStart_toStartOf="parent"/>
+        android:text="@string/Morning"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/timeForEating" />
 
     <EditText
+        android:id="@+id/editBreakfast"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:id="@+id/editBreakfast"
+        android:hint="@string/_7_00"
+        android:inputType="time"
         android:padding="10dp"
         app:layout_constraintStart_toEndOf="@id/breakfast"
-        app:layout_constraintTop_toBottomOf="@id/timeForEating"
-        android:inputType="time"
-        android:hint="@string/_7_00" />
+        app:layout_constraintTop_toBottomOf="@id/timeForEating" />
 
     <CheckBox
+        android:id="@+id/lunch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/lunch"
-       android:id="@+id/lunch"
         android:checked="true"
         android:padding="10dp"
-        app:layout_constraintTop_toBottomOf="@id/breakfast"
-        app:layout_constraintStart_toStartOf="parent"/>
+        android:text="@string/lunch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/breakfast" />
 
     <EditText
+        android:id="@+id/editLunch"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:id="@+id/editLunch"
+        android:hint="@string/_12_00"
+        android:inputType="time"
         android:padding="10dp"
         app:layout_constraintStart_toEndOf="@id/lunch"
-        app:layout_constraintTop_toBottomOf="@id/breakfast"
-        android:inputType="time"
-        android:hint="@string/_12_00" />
+        app:layout_constraintTop_toBottomOf="@id/breakfast" />
 
     <CheckBox
+        android:id="@+id/dinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/dinner"
-        android:id="@+id/dinner"
         android:checked="true"
         android:padding="10dp"
-        app:layout_constraintTop_toBottomOf="@id/lunch"
-        app:layout_constraintStart_toStartOf="parent"/>
+        android:text="@string/dinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lunch" />
 
     <EditText
+        android:id="@+id/editDinner"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:id="@+id/editDinner"
+        android:hint="@string/_19_00"
+        android:inputType="time"
         android:padding="10dp"
         app:layout_constraintStart_toEndOf="@id/dinner"
-        app:layout_constraintTop_toBottomOf="@id/lunch"
-        android:inputType="time"
-        android:hint="@string/_19_00" />
+        app:layout_constraintTop_toBottomOf="@id/lunch" />
 
     <Button
         android:id="@+id/previousStep3"
